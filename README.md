@@ -2,5 +2,5 @@
 
 记录一些有意思的实现。
 
-- [`异步任务串行`](./serial-async-task/README.md)
+- [`异步任务串行`](./serial-async-task)
 

@@ -1,4 +1,4 @@
-export interface SerialAsyncTaskOptions<T> {
+export interface SerialExecutionOptions<T> {
   /**
    * 异步任务列表
    */
@@ -36,7 +36,7 @@ export interface SerialAsyncTaskOptions<T> {
  * })
  * ```
  */
-async function serialExecution<T>(options: SerialAsyncTaskOptions<T>) {
+async function serialExecution<T>(options: SerialExecutionOptions<T>) {
   const {
     taskList,
     alwaysResolve = false,
