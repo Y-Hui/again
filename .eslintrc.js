@@ -60,5 +60,10 @@ module.exports = {
     'react/require-default-props': 0,
     'no-redeclare': 0,
     '@typescript-eslint/no-redeclare': 'warn',
+    'no-unused-expressions': 'off',
+    '@typescript-eslint/no-unused-expressions': [
+      'error',
+      { allowShortCircuit: true, allowTernary: true },
+    ],
   },
 }
