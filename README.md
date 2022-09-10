@@ -4,3 +4,5 @@
 
 - [`异步任务串行`](./serial-async-task)
 
+- [`Promise 错误重试`](./promise-retry)
+
