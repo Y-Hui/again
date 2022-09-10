@@ -6,3 +6,4 @@
 
 - [`Promise 错误重试`](./promise-retry)
 
+- [`指数退避`](./exponential-backoff)
